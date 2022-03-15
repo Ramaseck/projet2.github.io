@@ -1,0 +1,252 @@
+body{
+    
+    
+    margin: auto;
+    background-color:white;
+}
+/*.contenu{
+    background-color: red;
+    width: 1000px;*/
+    
+
+
+/*.header{
+    background-color: red;
+    height: 150px;*/
+
+    
+
+/*}
+.header p a{
+    color: white;
+    text-decoration: none;
+    background-color: red;
+
+    cursor:pointer;
+
+}
+.header ul li a{
+    color: white;
+    
+    width: 100%;
+    display: inline-flex;
+    text-decoration: none;
+}
+.header ul li a:hover{
+    color: rgb(241, 123, 12);
+
+
+}
+.header ul li{
+    list-style-type: none;
+    display: inline-flex;
+    padding:10px ;
+    float: right;
+*/
+
+
+.card{
+    box-shadow: 0 5px 8px rgba(0,0,0,0.2);
+    padding: 20px;
+    background-color: white;
+} 
+
+.footer{
+    background-color: rgb(211, 122, 6);
+    height: 100px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20%;
+}
+
+navbar
+{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+    background: crimson;
+    font-family: 'ubuntu', sans-serif;
+}
+.navbar .max-width
+{
+    display: flex;
+    align-items: center;/*aligner portfolio et navbar*/
+    justify-content: space-between; /*ecarter portfolio et navbar*/
+}
+.logo a
+{
+
+    font-size: 35px;
+    font-weight: 600;
+    text-decoration: none;
+    color: orange;
+    margin-left: ;
+    
+}
+.logo a span{
+    color: black;
+}
+
+.sidenav{
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+    word-spacing: 100px;
+    font-size: 35px;
+}
+
+.sidenav a
+{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+
+.sidenav a:hover{
+    color: orange;
+}
+.navbar .menu li a
+{
+    /*propriétés de la liste en haut à droite*/
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+.navbar .menu li a:hover{
+    color: rgb(0, 0, 0);
+}
+.btn{
+    border-radius: 1px solid orange;
+    background: orange;
+    color: white;
+    padding: 10px;
+}
+
+.btn:hover{
+    color: rgb(211, 122, 6);
+    border: 1px solid rgb(211, 122, 6);
+    background: white;
+}
+.info{
+    margin-left: 8%;
+    margin-top: 10%;
+}
+.info h1{
+    font-size: 40px;
+}
+.info p{
+
+}
+.info h1 span{
+    color: rgb(211, 122, 6);
+}
+.info p{
+    line-height: 22px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: 500px;
+}
+.img{
+
+    width: 5%;
+    height: 80%;
+    position: absolute;
+    bottom: 200px;
+    right: 700px;
+    float: right;
+
+}
+.img img{
+    
+    position: absolute;
+    
+    bottom: 0;
+    width: 600%;
+    margin-left: 400px;
+    height: 250px;
+    top: 200px;
+    left: -90px;
+}
+    
+
+
+/* contact*/
+ 
+
+
+
+.contact{
+    background-image: url(imag.JPG) ;
+     background-size: 100%;   
+     background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    margin-left: 300px;
+    width: 800px;
+    margin: 10px;
+    margin-top: 70px;
+    background-color:rgba(255,255,255,0.65);
+    text-align: center;
+    padding:40px;
+    color:darkslategray;
+    box-sizing: border-box;
+    border-left: 10px solid orange;
+    margin-left: 350px;
+
+    
+   
+}
+p{
+    color:black;      
+    text-align: center;
+    text-transform:full-width;
+    font-size: 25px;
+
+        }
+input{
+    width: 100%;
+ margin:10px 0;
+    outline:none;
+    color:black;
+    font-size:20px;
+    
+    }
+
+    /* about */
+    .text{
+        display: ruby;
+        margin-top: 20px;
+    }
+    
+
+    .para{
+        float: right;
+    }
+    .para span{
+        text-align: center;
+        font-size: 25px;
+        color: black;
+
+
+    }
+    .imge{
+        float: left;
+        left: 30px;
+        border-radius: 10px solid orange;
+        padding-bottom: 10px;
+
+    }
+    .imge img{
+        right: 46px;
+        top: 100px;
+        margin-left: 70px;
+        margin-top: 100px;
+        width: 80%;
+
+    }
+
+
+
